@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;700&display=swap');
+
+
+
+.container {
+    width: 1229px;
+    margin: 0 auto;  
+}
+
+body {
+    background-color: var(--main-bcg-color);
+    font-family: 'Raleway', sans-serif;
+}
+
+.interactive {
+    margin: 40px auto;
+}
+
+.interactive-content {
+    width: 880px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 68px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 59px;
+    color: #3C3C3C;
+    margin-bottom: 20px;
+}
+
+.selector-block {
+    width: 676px;
+    margin: 0 auto;
+    background-color: #efefef;
+    display: flex;
+    flex-grow: 6;
+}
+
+.selector {
+   width: 33%;
+   padding: 5px;
+   text-align: center;
+}
+
+.selector:last-child {
+    margin-left: 33px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 676px;
+    margin: 0 auto;
+
+}
+
+.btn {
+    width: 200px;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    border: none;
+    color: #fff;
+}
+
+/* btn */
+.orange-btn {
+    background-color: var(--orange);
+}
+
+.green-btn {
+    background-color: var(--green);
+}
+
+.blue-btn {
+    background-color: var(--blue);
+}
+
+.gray-btn {
+    background-color: var(--gray);
+}
+
+/* hover */
+.orange-hover {
+    background-color: var(--light-orange);
+}
+
+.green-hover {
+    background-color: var(--light-green);
+}
+
+.blue-hover {
+    background-color: var(--light-blue);
+}
+
+.gray-hover {
+    background-color: var(--light-gray);
+}
+
+/* focus */
+.orange-focus {
+    background-color: var(--orange);
+    border: 2px solid var(--light-orange);
+}
+.green-focus {
+    background-color: var(--green);
+    border: 2px solid var(--light-green);
+}
+
+.blue-focus {
+    background-color: var(--blue);
+    border: 2px solid var(--light-blue);
+}
+
+.gray-focus {
+    background-color: var(--gray);
+    border: 2px solid var(--light-gray);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 676px;
+    margin: 20px auto;
+    align-items: center;
+
+}
+
+.link {
+    width: 33%;
+    line-height: 2em;
+    text-align: center;
+}
+
+.black {
+    font-weight: bold;
+}
+
+.blue-link {
+    color: var(--blue);
+}
+
+.hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: var(--green)
+}
+
+
